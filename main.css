@@ -7,6 +7,23 @@ div.Menu_TopMenu {
     background: none;
 }
 
+div.main {
+    z-index: 500;
+    float: none;
+    width: auto;
+    margin-left: 0;
+    padding-left: 290px;
+}
+
+div.h1 {
+    font-family: 'RobotoBold', 'Helvetica-Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 32px 0;
+    text-transform: uppercase;
+    color:black;
+}
 body {
     font-family: helvetica;
 }
