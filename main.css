@@ -1,6 +1,17 @@
+html {
+    background: black;
+}
+
+div, label {
+    background: #222;
+    color: #fff;
+    display: block;
+}
 .Menu_TopMenu {
     background: #333;
     overflow: hidden;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
 }
 
 .Menu_TopMenu a {
@@ -22,7 +33,9 @@
     color: white;
 }
 
-
+header {
+    color: #fff;
+}
 
 div.main {
     z-index: 500;
@@ -39,10 +52,22 @@ div.h1 {
     line-height: normal;
     margin: 32px 0;
     text-transform: uppercase;
-    color:black;
+    color: #fff;
 }
+
+div.sidebar {
+    font-size: .875em;
+    float: left;
+    width: 270px;
+    min-height: 400px;
+    margin-top: 32px;
+    padding-bottom: 40px;
+    background: #222;
+}
+
 body {
     font-family: helvetica;
+    background: #111;
 }
 
 ul {
@@ -88,7 +113,7 @@ li {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #333;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -96,7 +121,7 @@ li {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #fff;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -112,5 +137,14 @@ main {
     line-height: 1.5;
     letter-spacing: 0.05rem;
     padding: 1rem;
-    background-color: white;
+    background-color: #333;
+    color: #fff;
+}
+
+select {
+    box-sizing: border-box;
+    padding: 6px;
+    color: #fff;
+    border: 1px solid #555;
+    background: #333;
 }
