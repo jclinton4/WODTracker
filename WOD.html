@@ -6,19 +6,27 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
+        <header>
+            <h1>Workout Of The Day</h1>
+        </header>
         <div class="Menu_TopMenu">
-            <a id="Athlete2" href="index.html">Main</a>
-        </div>
-        <div class="Menu_TopMenu">
-            <a id="Athlete" href="WOD.html">WOD</a>
-        </div>
-        <div>
-            <h1>WOD</h1>
+            <a href="index.html">Main</a>
+            <a class="active" href="WOD.html">WOD</a>
         </div>
         <p id="date"></p>
-        <ul>
-            <li class="list">Edit the head</li>
-        </ul>
+        <div>
+            <label for="workoutChoose">Choose a Workout:</label>
+            <select id="choose-workout" name="workout-choose">
+                <option>Workout 1</option>
+                <option>Workout 2</option>
+                <option>Workout 3</option>
+            </select>
+        </div>
+        <div>
+            <main>
+
+            </main>
+        </div>
         <script src="app.js"></script>
         <noscript>You need to enable JavaScript to view the full site.</noscript>
     </body>
